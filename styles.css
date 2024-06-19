@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;  /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #ff5733;  /* Hover color change */
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    margin-bottom: 100px;  /* Space between main content and footer */
+}
+
+section {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #0073e6;  /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;  /* Smooth transition for color change */
+}
+
+section ul li a:hover {
+    color: #ff5733;  /* Hover color change */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
